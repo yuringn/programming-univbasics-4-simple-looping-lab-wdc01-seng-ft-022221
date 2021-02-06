@@ -12,3 +12,8 @@ def loop_message_n_times(string, integer)
   end
 end
 loop_message_n_times(" I love you", 3)
+
+def output_array(array)
+  puts array
+end
+output_array([5, 4, 3, 2, 1])
