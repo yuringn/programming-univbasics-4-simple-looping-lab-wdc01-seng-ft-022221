@@ -19,6 +19,6 @@ end
 output_array([5, 4, 3, 2, 1])
 
 def return_string_array(array)
-  return array
+p array.map { |i| i.to_s}
 end
-return_string_array([[5, 4, 3, 2, 1]])
+return_string_array([5, 4, 3, 2, 1])
